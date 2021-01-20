@@ -13,7 +13,20 @@
 		4B81ABC925B8047500CB1443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B81ABC725B8047500CB1443 /* Main.storyboard */; };
 		4B81ABCB25B8047600CB1443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B81ABCA25B8047600CB1443 /* Assets.xcassets */; };
 		4B81ABCE25B8047600CB1443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B81ABCC25B8047600CB1443 /* LaunchScreen.storyboard */; };
+		4B81ABD725B804AC00CB1443 /* JarvisHello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B81ABD625B804AC00CB1443 /* JarvisHello.mp3 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B81ABDB25B809A900CB1443 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4B81ABBE25B8047500CB1443 /* Jarvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jarvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +37,7 @@
 		4B81ABCA25B8047600CB1443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B81ABCD25B8047600CB1443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B81ABCF25B8047600CB1443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B81ABD625B804AC00CB1443 /* JarvisHello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JarvisHello.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		4B81ABB525B8047500CB1443 = {
 			isa = PBXGroup;
 			children = (
+				4B81ABDC25B809E500CB1443 /* Sounds */,
 				4B81ABC025B8047500CB1443 /* Jarvis */,
 				4B81ABBF25B8047500CB1443 /* Products */,
 			);
@@ -67,6 +82,14 @@
 			path = Jarvis;
 			sourceTree = "<group>";
 		};
+		4B81ABDC25B809E500CB1443 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4B81ABD625B804AC00CB1443 /* JarvisHello.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +100,7 @@
 				4B81ABBA25B8047500CB1443 /* Sources */,
 				4B81ABBB25B8047500CB1443 /* Frameworks */,
 				4B81ABBC25B8047500CB1443 /* Resources */,
+				4B81ABDB25B809A900CB1443 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -127,6 +151,7 @@
 				4B81ABCE25B8047600CB1443 /* LaunchScreen.storyboard in Resources */,
 				4B81ABCB25B8047600CB1443 /* Assets.xcassets in Resources */,
 				4B81ABC925B8047500CB1443 /* Main.storyboard in Resources */,
+				4B81ABD725B804AC00CB1443 /* JarvisHello.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
